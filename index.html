@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercícios de Programação</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Teste Target</h1>
+
+    <h2>1. Soma da sequência</h2>
+    <p>O valor da variável SOMA será: <span id="resultadoSoma"></span></p>
+
+    <h2>2. Sequência de Fibonacci</h2>
+    <label for="fibonacciInput"
+      >Digite um número para verificar se pertence à sequência de
+      Fibonacci:</label
+    >
+    <input type="number" id="fibonacciInput" />
+    <button onclick="verificarFibonacci()">Verificar</button>
+    <p id="resultadoFibonacci"></p>
+
+    <h2>3. Faturamento Mensal</h2>
+    <button onclick="calcularFaturamento()">Calcular Faturamento</button>
+    <p id="resultadoFaturamento"></p>
+
+    <h2>4. Percentual de Representação dos Estados</h2>
+    <button onclick="calcularPercentual()">Calcular Percentual</button>
+    <p id="resultadoPercentual"></p>
+
+    <h2>5. Inverter String</h2>
+    <label for="inputString">Digite uma string para inverter:</label>
+    <input type="text" id="inputString" />
+    <button onclick="inverterString()">Inverter</button>
+    <p id="resultadoString"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
